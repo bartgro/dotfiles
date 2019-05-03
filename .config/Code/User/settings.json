@@ -1,8 +1,9 @@
 {
-  "editor.fontFamily": "Meslo LG M",
-  "editor.fontSize": 14,
+  // "editor.fontFamily": "Meslo LG M",
+  "editor.fontFamily": "SF Mono",
+  "editor.fontSize": 15,
   "editor.fontWeight": "700",
-  "editor.lineHeight": 21,
+  "editor.lineHeight": 23,
   "editor.minimap.enabled": false,
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "none",
@@ -91,7 +92,7 @@
     "menu.selectionForeground": "#FF7042",
     "menubar.selectionForeground": "#FF7042"
   },
-  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
   "workbench.editor.revealIfOpen": true,
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreviewFromQuickOpen": false,
