@@ -1,0 +1,18 @@
+[user]
+	email = bartosz@groski.com
+	name = Bartosz Grochowski
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = true
+[help]
+	autocorrect = 1
+[status]
+	submodule = 1
+[apply]
+	whitespace = warn
+[alias]
+	lol = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	l = log --pretty=format:'%Cred%h%Creset %Cgreen%cr %C(bold blue)%an%Creset%C(yellow)%d%Creset %s'
