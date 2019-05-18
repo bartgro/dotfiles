@@ -16,11 +16,14 @@
   "editor.mouseWheelScrollSensitivity": 1,
   "editor.fastScrollSensitivity": 4,
   "editor.suggestSelection": "first",
+  "editor.rulers": [80],
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontFamily": "Meslo LG M",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": "700",
   "terminal.integrated.lineHeight": 1.25,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -45,7 +48,6 @@
     "**/public/system/**": true,
     "**/public/uploads/**": true
   },
-  "explorer.confirmDelete": false,
   "css.validate": false,
   "ruby.intellisense": false,
   "ruby.format": "rubocop",
@@ -68,9 +70,9 @@
   "workbench.tips.enabled": false,
   "workbench.activityBar.visible": false,
   "workbench.colorCustomizations": {},
-  "workbench.colorTheme": "Material Theme Ocean High Contrast",
   "workbench.editor.revealIfOpen": true,
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Material Theme Darker High Contrast"
 }
