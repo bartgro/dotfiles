@@ -27,12 +27,14 @@ Projects/
 !.gitignore
 !.gitignore_global
 !.gitmodules
+!.irbrc
 !.profile
 !.pryrc
 !.psqlrc
 !.railsrc
-!.irbrc
-!.pryrc
+!.tmux.conf
+!.vimrc
+!.zshenv
 !.zshrc
 !.config/Code/User/settings.json
 !.config/Code/User/keybindings.json
