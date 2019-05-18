@@ -1,6 +1,10 @@
 [user]
-	email = bartosz@groski.com
-	name = Bartosz Grochowski
+  name = Bartosz Grochowski
+  email = bartosz@groski.com
+[core]
+  excludesfile = ~/.gitignore_global
+  attributesfile = ~/.gitattributes
+  editor = vim
 [color]
 	branch = auto
 	diff = auto
@@ -15,4 +19,6 @@
 	whitespace = warn
 [alias]
 	lol = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	l = log --pretty=format:'%Cred%h%Creset %Cgreen%cr %C(bold blue)%an%Creset%C(yellow)%d%Creset %s'
+  l = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+  lo = log --pretty=format:'%Yellow%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+  d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
