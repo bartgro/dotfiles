@@ -2,6 +2,6 @@
 :verbose: true
 :sources:
 - https://rubygems.org
-gem: --no-ri --no-rdoc
+gem: --no-document
 :update_sources: true
 :backtrace: false
