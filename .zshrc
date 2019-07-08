@@ -4,6 +4,12 @@ bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 bindkey "^H" backward-kill-word
 bindkey -M emacs '^[[3;5~' kill-word
+#bindkey "^[[1;6D" backward-word
+#bindkey "^[[1;6C" forward-word
+
+# bindkey -v
+
+unsetopt correct_all
 
 lazynvm() {
   unset -f nvm node npm
@@ -25,5 +31,18 @@ npm() {
   lazynvm
   npm $@
 }
+
+# fancy-ctrl-z () {
+#  if [[ $#BUFFER -eq 0 ]]; then
+#    fg
+#    zle redisplay
+#  else
+#    zle push-input
+#    zle clear-screen
+#  fi
+#}
+
+# zle -N fancy-ctrl-z
+# bindkey '^Z' fancy-ctrl-z
 
 eval "$(rbenv init -)"
