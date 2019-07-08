@@ -33,5 +33,19 @@
   {
     "key": "ctrl+shift+/",
     "command": "workbench.action.togglePanelPosition"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "erb.toggleTags",
+    "when": "editorTextFocus && editorLangId == erb"
+  },
+  {
+    "key": "enter",
+    "command": "-acceptSelectedSuggestionOnEnter",
+    "when": "acceptSuggestionOnEnter && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus"
   }
 ]

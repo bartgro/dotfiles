@@ -1,8 +1,8 @@
 {
-  "editor.fontFamily": "Meslo LG M",
-  "editor.fontSize": 16,
-  "editor.fontWeight": "700",
-  "editor.lineHeight": 23,
+  "editor.fontFamily": "Fira Code Retina",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "500",
+  "editor.lineHeight": 19,
   "editor.minimap.enabled": false,
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "none",
@@ -10,17 +10,14 @@
   "editor.wordBasedSuggestions": true,
   "editor.formatOnPaste": true,
   "editor.accessibilitySupport": "off",
-  "editor.cursorSmoothCaretAnimation": true,
   "editor.formatOnSave": true,
-  "editor.smoothScrolling": true,
   "editor.mouseWheelScrollSensitivity": 1,
   "editor.fastScrollSensitivity": 4,
   "editor.suggestSelection": "first",
-  "editor.rulers": [80],
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontFamily": "Meslo LG M",
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontWeight": "700",
+  "terminal.integrated.fontWeight": "400",
   "terminal.integrated.lineHeight": 1.25,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -48,7 +45,12 @@
     "**/public/system/**": true,
     "**/public/uploads/**": true
   },
+  "less.validate": false,
+  "scss.validate": false,
   "css.validate": false,
+  "[ruby]": {
+    "editor.rulers": [80]
+  },
   "ruby.intellisense": false,
   "ruby.format": "rubocop",
   "ruby.locate": {
@@ -61,18 +63,25 @@
     "editor.formatOnSave": false
   },
   "prettier.disableLanguages": ["js"],
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.menuBarVisibility": "toggle",
   "window.closeWhenEmpty": true,
   "workbench.iconTheme": "file-icons",
   "workbench.tree.indent": 14.5,
-  "workbench.statusBar.feedback.visible": false,
   "workbench.tips.enabled": false,
   "workbench.activityBar.visible": false,
-  "workbench.colorCustomizations": {},
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#303030",
+    "statusBar.noFolderBackground": "#222225",
+    "statusBar.debuggingBackground": "#511f1f"
+  },
   "workbench.editor.revealIfOpen": true,
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreviewFromQuickOpen": false,
+  "vscode_custom_css.imports": [
+    "file:///home/bartosz/.config/Code/User/customCss.css"
+  ],
+  "vscode_custom_css.policy": true,
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Material Theme Darker High Contrast"
+  "workbench.sideBar.location": "left",
+  "workbench.tree.renderIndentGuides": "always"
 }
