@@ -1,6 +1,6 @@
 {
-  "editor.fontFamily": "Fira Code Retina",
-  "editor.fontSize": 14,
+  "editor.fontFamily": "Operator Mono",
+  "editor.fontSize": 15,
   "editor.fontWeight": "500",
   "editor.lineHeight": 19,
   "editor.minimap.enabled": false,
@@ -21,6 +21,13 @@
   "terminal.integrated.lineHeight": 1.25,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin"
+      }
+    ]
+  },
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -31,7 +38,7 @@
     "public/uploads/*": true,
     "public/packs/*": true,
     "public/packs-test/*": true,
-    "node_modules": true,
+    "node_modules": false,
     "bower_components": true,
     "tmp/*": true,
     "coverage/*": true
@@ -60,7 +67,7 @@
   "eslint.alwaysShowStatus": true,
   "eslint.autoFixOnSave": true,
   "[javascript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
   },
   "prettier.disableLanguages": ["js"],
   "window.menuBarVisibility": "toggle",
@@ -77,11 +84,9 @@
   "workbench.editor.revealIfOpen": true,
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "vscode_custom_css.imports": [
-    "file:///home/bartosz/.config/Code/User/customCss.css"
-  ],
-  "vscode_custom_css.policy": true,
   "window.zoomLevel": 0,
   "workbench.sideBar.location": "left",
-  "workbench.tree.renderIndentGuides": "always"
+  "workbench.tree.renderIndentGuides": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.eslintIntegration": false
 }

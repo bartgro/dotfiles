@@ -46,3 +46,7 @@ npm() {
 # bindkey '^Z' fancy-ctrl-z
 
 eval "$(rbenv init -)"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/bartosz/.sdkman"
+[[ -s "/home/bartosz/.sdkman/bin/sdkman-init.sh" ]] && source "/home/bartosz/.sdkman/bin/sdkman-init.sh"

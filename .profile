@@ -1,4 +1,3 @@
-export PATH="$PATH:/opt/yarn-1.15.2/bin"
 export PATH=$HOME/.rbenv/bin:$PATH
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
