@@ -1,6 +1,6 @@
 {
-  "editor.fontFamily": "Operator Mono",
-  "editor.fontSize": 15,
+  "editor.fontFamily": "Fira Code Retina",
+  "editor.fontSize": 14,
   "editor.fontWeight": "500",
   "editor.lineHeight": 19,
   "editor.minimap.enabled": false,
@@ -28,6 +28,18 @@
       }
     ]
   },
+  "advancedNewFile.exclude": {
+    "node_modules": true,
+    "node_modules_electron": true,
+    "dev": true,
+    "dist": true
+  },
+  "advancedNewFile.showInformationMessages": true,
+  "advancedNewFile.convenienceOptions": [
+    "last",
+    "current",
+    "root"
+  ],
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -38,7 +50,7 @@
     "public/uploads/*": true,
     "public/packs/*": true,
     "public/packs-test/*": true,
-    "node_modules": false,
+    "node_modules": true,
     "bower_components": true,
     "tmp/*": true,
     "coverage/*": true
@@ -56,7 +68,9 @@
   "scss.validate": false,
   "css.validate": false,
   "[ruby]": {
-    "editor.rulers": [80]
+    "editor.rulers": [
+      80
+    ]
   },
   "ruby.intellisense": false,
   "ruby.format": "rubocop",
@@ -67,9 +81,12 @@
   "eslint.alwaysShowStatus": true,
   "eslint.autoFixOnSave": true,
   "[javascript]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.disableLanguages": ["js"],
+  "prettier.disableLanguages": [
+    "js"
+  ],
   "window.menuBarVisibility": "toggle",
   "window.closeWhenEmpty": true,
   "workbench.iconTheme": "file-icons",
@@ -88,5 +105,10 @@
   "workbench.sideBar.location": "left",
   "workbench.tree.renderIndentGuides": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "prettier.eslintIntegration": false
+  "prettier.eslintIntegration": false,
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens"
 }

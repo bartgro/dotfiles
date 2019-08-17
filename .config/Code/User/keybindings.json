@@ -35,7 +35,7 @@
     "command": "workbench.action.togglePanelPosition"
   },
   {
-    "key": "ctrl+shift+e",
+    "key": "ctrl+shift+w",
     "command": "workbench.view.explorer"
   },
   {
@@ -47,5 +47,107 @@
     "key": "enter",
     "command": "-acceptSelectedSuggestionOnEnter",
     "when": "acceptSuggestionOnEnter && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "extension.advancedNewFile"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "-extension.advancedNewFile"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "-workbench.action.quit"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "-workbench.action.closeWindow"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "-workbench.view.explorer"
+  },
+  {
+    "key": "ctrl+k ctrl+down",
+    "command": "workbench.action.moveActiveEditorGroupDown"
+  },
+  {
+    "key": "ctrl+k down",
+    "command": "-workbench.action.moveActiveEditorGroupDown"
+  },
+  {
+    "key": "ctrl+k down",
+    "command": "workbench.action.focusBelowGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+down",
+    "command": "-workbench.action.focusBelowGroup"
+  },
+  {
+    "key": "ctrl+k up",
+    "command": "workbench.action.focusAboveGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+up",
+    "command": "-workbench.action.focusAboveGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+up",
+    "command": "workbench.action.moveActiveEditorGroupUp"
+  },
+  {
+    "key": "ctrl+k up",
+    "command": "-workbench.action.moveActiveEditorGroupUp"
+  },
+  {
+    "key": "ctrl+k left",
+    "command": "workbench.action.focusLeftGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+left",
+    "command": "-workbench.action.focusLeftGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+left",
+    "command": "workbench.action.moveActiveEditorGroupLeft"
+  },
+  {
+    "key": "ctrl+k left",
+    "command": "-workbench.action.moveActiveEditorGroupLeft"
+  },
+  {
+    "key": "ctrl+k ctrl+right",
+    "command": "workbench.action.moveActiveEditorGroupRight"
+  },
+  {
+    "key": "ctrl+k right",
+    "command": "-workbench.action.moveActiveEditorGroupRight"
+  },
+  {
+    "key": "ctrl+k right",
+    "command": "workbench.action.focusRightGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+right",
+    "command": "-workbench.action.focusRightGroup"
   }
 ]
