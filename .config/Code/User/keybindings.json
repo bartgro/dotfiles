@@ -149,5 +149,13 @@
   {
     "key": "ctrl+k ctrl+right",
     "command": "-workbench.action.focusRightGroup"
+  },
+  {
+    "key": "ctrl+'",
+    "command": "cursorLineEnd"
+  },
+  {
+    "key": "ctrl+;",
+    "command": "cursorLineStart"
   }
 ]
