@@ -6,20 +6,20 @@
   attributesfile = ~/.gitattributes
   editor = vim
 [color]
-	branch = auto
-	diff = auto
-	interactive = auto
-	status = auto
-	ui = true
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+  ui = true
 [help]
-	autocorrect = 1
+  autocorrect = 1
 [status]
-	submodule = 1
+  submodule = 1
 [apply]
-	whitespace = warn
+  whitespace = warn
 [alias]
   d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
-	lol = log --graph --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  lol = log --graph --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   l = log --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
   contributors = shortlog --summary --numbered
   s = status
