@@ -38,3 +38,4 @@ Projects/
 !.zshrc
 !.config/Code/User/settings.json
 !.config/Code/User/keybindings.json
+!.oh-my-zsh/custom/themes/bgro.zsh-theme
