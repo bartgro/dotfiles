@@ -157,5 +157,13 @@
   {
     "key": "ctrl+;",
     "command": "cursorLineStart"
+  },
+  {
+    "key": "ctrl+f9",
+    "command": "code-runner.run"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "-code-runner.run"
   }
 ]

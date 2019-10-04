@@ -35,7 +35,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'rakr/vim-one'
 Plug 'benekastah/neomake'
 Plug 'junegunn/fzf'
-Plug 'chriskempson/base16-vim'
+Plug 'kaicataldo/material.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
@@ -77,10 +77,10 @@ set nowb
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
-"" Theme
 set termguicolors
 let base16colorspace=256
-colorscheme base16-default-dark
+let g:material_theme_style = 'ocean'
+colorscheme material
 
 " Cursor type setup
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"    " Insert mode
