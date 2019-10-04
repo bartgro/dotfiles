@@ -2,11 +2,6 @@ export ZSH="/home/bartosz/.oh-my-zsh"
 
 ZSH_THEME="bgro"
 
-bindkey "^[[1;5C" forward-word
-bindkey "^[[1;5D" backward-word
-bindkey "^H" backward-kill-word
-bindkey -M emacs '^[[3;5~' kill-word
-
 eval "$(rbenv init - zsh)"
 
 DISABLE_MAGIC_FUNCTIONS="true"
@@ -39,5 +34,11 @@ fancy-ctrl-z () {
  fi
 }
 
+# binds
 zle -N fancy-ctrl-z
 bindkey '^Z' fancy-ctrl-z
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+bindkey "^H" backward-kill-word
+bindkey -M emacs '^[[3;5~' kill-word
+
