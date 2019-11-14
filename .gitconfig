@@ -23,3 +23,5 @@
   l = log --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
   contributors = shortlog --summary --numbered
   s = status
+  up = pull --rebase --autostash
+  amend = commit --amend
