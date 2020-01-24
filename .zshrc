@@ -34,6 +34,14 @@ fancy-ctrl-z () {
  fi
 }
 
+rbenv() {
+  if [[ $@ == update ]]; then
+    command git -C ~/.rbenv/plugins/ruby-build pull
+  else
+    command rbenv "$@"
+  fi
+}
+
 # binds
 zle -N fancy-ctrl-z
 bindkey '^Z' fancy-ctrl-z
