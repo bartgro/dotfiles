@@ -35,7 +35,7 @@
     "command": "workbench.action.togglePanelPosition"
   },
   {
-    "key": "ctrl+shift+w",
+    "key": "ctrl+shift+e",
     "command": "workbench.view.explorer"
   },
   {
@@ -71,16 +71,6 @@
   {
     "key": "ctrl+shift+w",
     "command": "-workbench.action.closeWindow"
-  },
-  {
-    "key": "ctrl+shift+w",
-    "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
-    "when": "inFilesPicker && inQuickOpen"
-  },
-  {
-    "key": "ctrl+shift+e",
-    "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
-    "when": "inFilesPicker && inQuickOpen"
   },
   {
     "key": "ctrl+shift+e",
@@ -165,5 +155,9 @@
   {
     "key": "ctrl+alt+n",
     "command": "-code-runner.run"
+  },
+  {
+    "key": "ctrl+alt+shift+i",
+    "command": "editor.action.inspectTMScopes"
   }
 ]
